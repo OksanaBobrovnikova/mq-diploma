@@ -107,7 +107,7 @@ body {
   text-decoration: underline;
 }
 
-.burger {
+.burger-menu {
   position: relative;
   display: none;
   border-top: 4px solid var(--white-color);
@@ -117,7 +117,7 @@ body {
   cursor: pointer;
 }
 
-.burger:before {
+.burger-menu:before {
   content: "";
   position: absolute;
   top: 4px;
@@ -926,7 +926,7 @@ body {
     display: none;
   }
 
-  .burger {
+  .burger-menu{
     display: block;
   }
 
@@ -1045,7 +1045,7 @@ body {
     flex-direction: column;
   }
 
-  .burger {
+  .burger-menu {
     order: -1;
     align-self: end;
     display: flex;
